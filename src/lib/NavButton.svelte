@@ -5,9 +5,6 @@
 
 <a
 	href="/{label}"
-	class="font-bold text-base border-b-2 border-transparent text-white
-           flex-1
-           hover:cursor-pointer
-           hover:border-b-2 hover:text-secondary-50 duration-100 ease-out"
+	class="font-bold text-base px-5 text-white opacity-70 hover:cursor-pointer hover:opacity-100"
 	aria-current={$page.url.pathname === `/${label}`}>{label.toUpperCase()}</a
 >
