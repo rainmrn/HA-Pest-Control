@@ -15,14 +15,18 @@
 		}
 	}
 
-	function handleAddToCart(place) {
-		let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
-		let alreadyExists = cart.find((e) => e.id === place.id);
-		if (!alreadyExists) {
-			cart.push(place);
-			sessionStorage.setItem('cart', JSON.stringify(cart));
+	function handleAddTolist(place) {
+		let list = JSON.parse(sessionStorage.getItem('list')) || [];
+		let alreadyExists = list.find((e) => e.id === place.id);
+		if (alreadyExists) {
+			window.alert('This place is already in your list.');
 		}
-		console.log(sessionStorage.getItem('cart'));
+		else {
+			list.push(place);
+			sessionStorage.setItem('list', JSON.stringify(list));
+			window.alert('Place added to list.');
+		}
+		console.log(sessionStorage.getItem('list'));
 	}
 
 	// Fetch data on mount
@@ -52,7 +56,7 @@
 			{#each places as place}
 				<button
 					class="flex items-center gap-4 hover:bg-orange-500 hover:text-white duration-50 ease-in-out rounded-md cursor-pointer p-4"
-					on:click={handleAddToCart(place)}
+					on:click={handleAddTolist(place)}
 				>
 					<img
 						src={place.photos[0].getURI({ maxHeight: 200 })}

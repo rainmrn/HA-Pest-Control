@@ -1,6 +1,6 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
-    import CtaButton from '$lib/CTAButton.svelte';
+	import CtaButton from '$lib/CTAButton.svelte';
 </script>
 
 <div id="bg" class="w-screen">
@@ -12,7 +12,9 @@
 				Make the experience of traveling to your dream tourist destination come true with us. We
 				will provide the best experience of your life.
 			</p>
-			<CtaButton>Pick Your Destination</CtaButton>
+			<a href="/states" class="inline-block">
+				<CtaButton>Pick Your Destination</CtaButton>
+			</a>
 		</div>
 	</div>
 </div>
