@@ -5,7 +5,7 @@
 
 <a
 	href="/{label}"
-	class="text-base border-b-2 border-transparent text-white
+	class="font-bold text-base border-b-2 border-transparent text-white
            flex-1
            hover:cursor-pointer
            hover:border-b-2 hover:text-secondary-50 duration-100 ease-out"
