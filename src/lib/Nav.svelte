@@ -1,28 +1,13 @@
 <script>
 	import NavButton from '$lib/NavButton.svelte';
-	import { toTitleCase } from '$lib/utils.js';
 	import { onMount } from 'svelte';
 	import tippy from 'tippy.js';
-	let places = [
-		'Johor',
-		'Kedah',
-		'Kelantan',
-		'Malacca',
-		'Negeri Sembilan',
-		'Pahang',
-		'Penang',
-		'Perak',
-		'Perlis',
-		'Sabah',
-		'Sarawak',
-		'Selangor',
-		'Terengganu'
-	];
+	import { state } from '$lib/states.json';
 
 	export let light;
 
 	onMount(() => {
-		tippy('#places', {
+		tippy('#states', {
 			content: placesD.innerHTML,
 			allowHTML: true,
 			interactive: true
@@ -32,11 +17,11 @@
 
 <div id="placesD" style="display: none;">
 	<div class="bg-white rounded px-2 py-4 border shadow-lg space-y-1">
-		{#each places as place}
+		{#each state as s}
 			<a
-				href={`states/${place}`.toLowerCase()}
+				href={`/states/${s.slug}`}
 				class="block nav-button text-base px-5 text-black opacity-70 hover:cursor-pointer hover:opacity-100"
-				>{toTitleCase(place)}
+				>{s.name}
 			</a>
 		{/each}
 	</div>
@@ -45,24 +30,24 @@
 {#if light}
 	<nav class="mx-auto mb-5 w-3/4 text-black">
 		<div class="flex items-center place-content-between pt-8 pb-5">
-			<a href="/" class="font-bold text-lg">Wardiere Inc.</a>
+			<a href="/" class="font-bold text-lg">Travel2Malaysia</a>
 			<div class="flex justify-between items-center">
 				<NavButton label="states" />
 				<NavButton label="transport" />
 				<NavButton label="list" />
-				<NavButton label="about us" />
+				<NavButton path="about-us" label="about us" />
 			</div>
 		</div>
 	</nav>
 {:else}
 	<nav class="mx-auto mb-5 w-3/4 text-white">
 		<div class="flex items-center place-content-between pt-8 pb-5">
-			<a href="/" class="font-bold text-lg">Wardiere Inc.</a>
+			<a href="/" class="font-bold text-lg">Travel2Malaysia</a>
 			<div class="flex justify-between items-center">
-				<NavButton label="places" />
+				<NavButton label="states" />
 				<NavButton label="transport" />
 				<NavButton label="list" />
-				<NavButton label="about us" />
+				<NavButton path="about-us" label="about us" />
 			</div>
 		</div>
 	</nav>

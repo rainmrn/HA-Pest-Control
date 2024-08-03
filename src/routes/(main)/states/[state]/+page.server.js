@@ -1,4 +1,4 @@
-import states from '../states.json';
+import states from '$lib/states.json';
 import { error } from '@sveltejs/kit';
 
 export function load({ params }) {

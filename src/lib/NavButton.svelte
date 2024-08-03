@@ -1,11 +1,11 @@
 <script>
-	export let label;
-	import { page } from '$app/stores';
+	export let label,
+		path = label.toLowerCase();
 </script>
 
-<a id={label}
-	href="/{label}"
+<a
+	id={path}
+	href="/{path}"
 	class="nav-button font-bold text-base px-5 opacity-70 hover:cursor-pointer hover:opacity-100"
-	aria-current={$page.url.pathname === `/${label}`}
 	>{label.toUpperCase()}
 </a>

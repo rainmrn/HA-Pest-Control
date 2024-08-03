@@ -1,0 +1,40 @@
+{
+    "state": [
+        {
+            "name": "Johor",
+            "slug": "johor",
+            "description": "Johor is a Malaysian state located in the southern portion of Peninsular Malaysia. The state capital city and royal city of Johor is Johor Bahru, formerly known as Tanjung Puteri. The old state capital is Johor Lama.",
+            "image": "/states/johor.jpg"
+        },
+        {
+            "name": "Kedah",
+            "slug": "kedah",
+            "description": "Kedah is a state in northwest Malaysia, bordering Thailand and encompassing the Langkawi archipelago. On Langkawi Island, the Mahsuri Tomb and the Langkawi Cable Car, with views of the Andaman Sea, are among the main attractions. In the capital of Alor Setar, the Zahir Mosque is a grand 19th-century structure with 5 domes. Alor Setar is also home to the Kedah Royal Museum, which displays royal artifacts.",
+            "image": "/states/kedah.jpg"
+        },
+        {
+            "name": "Kelantan",
+            "slug": "kelantan",
+            "description": "Kelantan is a state in Malaysia. The capital and royal seat is Kota Bharu. The honorific of the state is Darul Naim. Kelantan is positioned in the north-east of Peninsular Malaysia. It is bordered by Narathiwat Province of Thailand to the north, Terengganu to the south-east, Perak to the west, and Pahang to the south. To the north-east of Kelantan is the South China Sea.",
+            "image": "/states/kelantan.jpg"
+        },
+        {
+            "name": "Malacca",
+            "slug": "malacca",
+            "description": "Malacca is a Malaysian state on the Malay Peninsula's southwest coast. The capital, Malacca City, has a colonial past seen in its preserved town center, the site of 16th-century, Portuguese St. Paul’s Church. It's also home to Christ Church, built by the Dutch in the 18th century. Next to Christ Church is Red Square, with the Stadthuys, the pink Dutch administrative building, and the Clock Tower, which offers city views.",
+            "image": "/states/malacca.jpg"
+        },
+        {
+            "name": "Negeri Sembilan",
+            "slug": "negeri-sembilan",
+            "description": "Negeri Sembilan is a state in Malaysia on the Malay Peninsula's southwest coast, known for its beaches, nature parks, and cultural sites. The state capital, Seremban, is home to the 19th-century, Moorish-style Masjid Jamek mosque and the Seremban Cultural Complex, showcasing local crafts and music. The city's Jelita Ostrich Farm offers rides and tours. The state's coastline includes the beaches of Port Dickson and Tanjung Tuan.",
+            "image": "/states/negeri-sembilan.jpg"
+        },
+        {
+            "name": "Perak",
+            "slug": "perak",
+            "description": "Perak is a Malaysian state on the west coast of the Malay Peninsula, bordered by several Malaysian states and Thailand to the northeast. The capital is Ipoh, historically known for tin mining, with the royal capital in Kuala Kangsar. Perak's diverse tropical rainforests and equatorial climate are part of the Titiwangsa Mountains. The ancient Perak Man skeleton, around 10,000 years old, reveals early human migration patterns. Perak's culture includes traditional dances like bubu, dabus, and labu sayong pottery, with Islam as the state religion and Malay and English as official languages.",
+            "image": "/states/perak.jpg"
+        }
+    ]
+}
