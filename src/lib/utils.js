@@ -1,4 +1,5 @@
-import { GOOGLE_API } from '$env/static/public';
+const GOOGLE_API = import.meta.env.VITE_GOOGLE_API;
+
 
 // src/lib/utils.js
 export function toTitleCase(str) {
@@ -9,7 +10,7 @@ export function toTitleCase(str) {
         .join(' ');
 }
 
-export async function findAttractions(state) {
+export async function initGoogleMaps() {
     (g => {
         var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window;
         b = b[c] || (b[c] = {});
@@ -31,7 +32,9 @@ export async function findAttractions(state) {
         // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
         // Add other bootstrap parameters as needed, using camel case.
     });
+}
 
+export async function findAttractions(state) {
     const { Place } = await google.maps.importLibrary("places");
 
     const request = {

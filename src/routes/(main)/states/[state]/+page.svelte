@@ -1,6 +1,6 @@
 <script>
 	import Title from '$lib/Title.svelte';
-	import { findAttractions } from '$lib/utils.js';
+	import { initGoogleMaps, findAttractions } from '$lib/utils.js';
 	import { onMount } from 'svelte';
 
 	let places = [];
@@ -28,8 +28,12 @@
 		console.log(sessionStorage.getItem('list'));
 	}
 
+	
 	// Fetch data on mount
-	onMount(fetchAttractions);
+	onMount(() => {
+		initGoogleMaps();
+		fetchAttractions();
+	});
 
 	// Reactive statement to watch for parameter changes
 	$: if (data.state.name) {

@@ -24,6 +24,7 @@
 	"type": "module",
 	"dependencies": {
 		"@splidejs/svelte-splide": "^0.2.9",
+		"dotenv": "^16.4.5",
 		"tippy.js": "^6.3.7"
 	}
 }
