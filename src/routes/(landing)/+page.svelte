@@ -65,5 +65,26 @@
 	</SplideSlide>
 </Splide>
 
+<div class="py-12 space-y-4">
+    <h1 class="font-bold text-4xl uppercase">Malaysia</h1>
+    <p class="text-lg w-3/4">
+        Discover Malaysia, a vibrant Southeast Asian gem known for its rich cultural tapestry, breathtaking landscapes, and diverse culinary delights. From the bustling metropolis of Kuala Lumpur with its iconic Petronas Twin Towers to the serene beaches of Langkawi and the lush rainforests of Borneo, Malaysia offers an extraordinary blend of modernity and tradition. Explore historic Melaka, savor the street food in Penang, and immerse yourself in the unique cultures of the indigenous tribes in Sarawak and Sabah. Whether you're seeking adventure, relaxation, or a cultural experience, Malaysia welcomes you with its warm hospitality and endless wonders.
+    </p>
+</div>
+
+<div class="pb-12 space-y-4">
+    <h2 class="uppercase">States of Malaysia</h2>
+    
+</div>
+
 <style>
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+    }
+    a div {
+        border-radius: 0.5rem;
+    }
 </style>
