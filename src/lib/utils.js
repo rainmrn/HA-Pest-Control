@@ -1,4 +1,4 @@
-import { GOOGLE_API } from '$env/static/private';
+import { GOOGLE_API } from '$env/static/public';
 
 // src/lib/utils.js
 export function toTitleCase(str) {
