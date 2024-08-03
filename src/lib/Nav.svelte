@@ -11,6 +11,7 @@
 		'Negeri Sembilan',
 		'Pahang',
 		'Penang',
+		'Perak',
 		'Perlis',
 		'Sabah',
 		'Sarawak',

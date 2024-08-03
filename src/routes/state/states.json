@@ -11,6 +11,12 @@
             "slug": "kedah",
             "description": "Kedah is a state in northwest Malaysia, bordering Thailand and encompassing the Langkawi archipelago. On Langkawi Island, the Mahsuri Tomb and the Langkawi Cable Car, with views of the Andaman Sea, are among the main attractions. In the capital of Alor Setar, the Zahir Mosque is a grand 19th-century structure with 5 domes. Alor Setar is also home to the Kedah Royal Museum, which displays royal artifacts.",
             "image": "/state/kedah.jpg"
+        },
+        {
+            "name": "Perak",
+            "slug": "perak",
+            "description": "Perak is a Malaysian state on the west coast of the Malay Peninsula, bordered by several Malaysian states and Thailand to the northeast. The capital is Ipoh, historically known for tin mining, with the royal capital in Kuala Kangsar. Perak's diverse tropical rainforests and equatorial climate are part of the Titiwangsa Mountains. The ancient Perak Man skeleton, around 10,000 years old, reveals early human migration patterns. Perak's culture includes traditional dances like bubu, dabus, and labu sayong pottery, with Islam as the state religion and Malay and English as official languages.",
+            "image": "/state/perak.jpg"
         }
     ]
 }
