@@ -31,10 +31,52 @@
             "image": "/states/negeri-sembilan.jpg"
         },
         {
+            "name": "Pahang",
+            "slug": "pahang",
+            "description": "Pahang is a state in the east of Peninsular Malaysia. The capital city and royal seat is Kuantan. Pahang is the third largest Malaysian state by area, and it is bordered to the north by Kelantan, to the west by Perak, Selangor, Negeri Sembilan, to the south by Johor and to the east by Terengganu and the South China Sea.",
+            "image": "/states/pahang.jpg"
+        },
+        {
+            "name": "Penang",
+            "slug": "penang",
+            "description": "Penang is a state in northwest Malaysia comprising mainland Seberang Perai and Penang Island. On the island, the state capital of George Town is home to landmarks such as colonial Fort Cornwallis, the ornate Chinese clan house Khoo Kongsi, and the Kapitan Keling Mosque, all testaments to centuries of foreign influence. To the west, a funicular ascends Penang Hill, with its trails, flower gardens, and panoramic views.",
+            "image": "/states/penang.jpg"
+        },
+        {
             "name": "Perak",
             "slug": "perak",
             "description": "Perak is a Malaysian state on the west coast of the Malay Peninsula, bordered by several Malaysian states and Thailand to the northeast. The capital is Ipoh, historically known for tin mining, with the royal capital in Kuala Kangsar. Perak's diverse tropical rainforests and equatorial climate are part of the Titiwangsa Mountains. The ancient Perak Man skeleton, around 10,000 years old, reveals early human migration patterns. Perak's culture includes traditional dances like bubu, dabus, and labu sayong pottery, with Islam as the state religion and Malay and English as official languages.",
             "image": "/states/perak.jpg"
+        },
+        {
+            "name": "Perlis",
+            "slug": "perlis",
+            "description": "Perlis is a state in northern Malaysia, bordering Thailand. The capital, Kangar, is known for its colonial architecture, including the Royal Palace. Nearby, the Kota Kayang Museum showcases local crafts and royal regalia. The state's Limestone hills are home to Gua Kelam, a cave with a river running through it. To the west, the Perlis State Park is a forested area with hiking trails and a canopy walkway.",
+            "image": "/states/perlis.jpg"
+        },
+        {
+            "name": "Sabah",
+            "slug": "sabah",
+            "description": "Sabah is a Malaysian state occupying the northern part of the island of Borneo. It's known for its beaches, rainforest, coral reefs, and abundant wildlife, much of it within parks and reserves. Offshore, the Sipadan and Mabul islands are noted diving destinations. In the northwest, the Kinabalu National Park is home to 4,095m-high Mount Kinabalu, the island’s highest peak, and the Taman Negara rainforest.",
+            "image": "/states/sabah.jpg"
+        },
+        {
+            "name": "Sarawak",
+            "slug": "sarawak",
+            "description": "Sarawak is a state in Malaysia on the island of Borneo. Known for its beaches and ancient rainforest, it's also home to the indigenous Iban people, with their traditional longhouses. The capital, Kuching, is a bustling city set on the Sarawak River. Its 19th-century landmarks include the Astana, former palace of the White Rajahs, and Fort Margherita, built to thwart pirates. The city's Cat Museum displays thousands of feline-related items.",
+            "image": "/states/sarawak.jpg"
+        },
+        {
+            "name": "Selangor",
+            "slug": "selangor",
+            "description": "Selangor is a state in Malaysia, located on the west coast of Peninsular Malaysia. It is bordered by Perak to the north, Pahang to the east, Negeri Sembilan to the south, and the Strait of Malacca to the west. Selangor surrounds the federal territories of Kuala Lumpur and Putrajaya, both of which were previously part of it.",
+            "image": "/states/selangor.jpg"
+        },
+        {
+            "name": "Terengganu",
+            "slug": "terengganu",
+            "description": "Terengganu is a state on the east coast of Peninsular Malaysia. The capital city, Kuala Terengganu, is home to the 18th-century Crystal Mosque, with its crystal-studded minarets. The city's State Museum displays local crafts and traditional textiles. The island of Pulau Redang, part of a marine park, is known for its white-sand beaches and coral reefs. The beaches of the Perhentian Islands are a popular diving site.",
+            "image": "/states/terengganu.jpg"
         }
     ]
 }

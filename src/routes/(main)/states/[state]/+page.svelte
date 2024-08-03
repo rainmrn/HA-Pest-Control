@@ -20,8 +20,7 @@
 		let alreadyExists = list.find((e) => e.id === place.id);
 		if (alreadyExists) {
 			window.alert('This place is already in your list.');
-		}
-		else {
+		} else {
 			list.push(place);
 			sessionStorage.setItem('list', JSON.stringify(list));
 			window.alert('Place added to list.');
@@ -44,8 +43,6 @@
 	{data.state.name}
 </Title>
 
-
-
 <div class="max-w-prose space-y-8 mx-auto mb-24">
 	<p>{data.state.description}</p>
 	<img src={data.state.image} alt="" class=" mx-auto rounded-lg mb-12" />
@@ -56,12 +53,12 @@
 		{:then places}
 			{#each places as place}
 				<button
-					class="flex items-center gap-4 hover:bg-orange-500 hover:text-white duration-50 ease-in-out rounded-md cursor-pointer p-4"
+					class="flex items-center gap-4 hover:bg-black hover:text-white duration-50 ease-in-out rounded-sm cursor-pointer p-4"
 					on:click={handleAddTolist(place)}
 				>
 					<img
 						src={place.photos[0].getURI({ maxHeight: 200 })}
-						class="w-[160px] h-[100px] object-cover rounded"
+						class="w-[160px] h-[100px] object-cover rounded-sm"
 						alt=""
 					/>
 					<p>{place.displayName}</p>

@@ -72,11 +72,6 @@
     </p>
 </div>
 
-<div class="pb-12 space-y-4">
-    <h2 class="uppercase">States of Malaysia</h2>
-    
-</div>
-
 <style>
     img {
         width: 100%;
