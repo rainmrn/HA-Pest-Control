@@ -1,3 +1,5 @@
+import { GOOGLE_API } from '$env/static/private';
+
 // src/lib/utils.js
 export function toTitleCase(str) {
     return str
@@ -24,7 +26,7 @@ export async function findAttractions(state) {
         }));
         d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
     })({
-        key: "AIzaSyAKRgIAj4rdVoPvJ8RCKi5jGRnwqqWNd0g",
+        key: `${GOOGLE_API}`,
         v: "weekly",
         // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
         // Add other bootstrap parameters as needed, using camel case.
