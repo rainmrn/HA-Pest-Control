@@ -14,6 +14,7 @@
 	}
 
 	function calcRecommendPath(start, end) {
+		travelPlan = []; // Reset the travel plan
 		let list = JSON.parse(sessionStorage.getItem('list')) || [];
 		if (list.length === 0) {
 			alert('Your list is empty.');
@@ -101,15 +102,17 @@
 		</button>
 	</div>
 
-	<h2>Recommended path</h2>
-	<div class="flex flex-col gap-4">
-		{#each travelPlan as day, i}
-			<div>
-				<h3 class="pb-4">Day {i + 1}</h3>
-				{#each day as item}
-					<p>{item.displayName}</p>
-				{/each}
-			</div>
-		{/each}
-	</div>
+	{#if travelPlan.length > 0}
+		<h2>Recommended path</h2>
+		<div class="flex flex-col gap-4">
+			{#each travelPlan as day, i}
+				<div>
+					<h3 class="pb-4">Day {i + 1}</h3>
+					{#each day as item}
+						<p>{item.displayName}</p>
+					{/each}
+				</div>
+			{/each}
+		</div>
+	{/if}
 </div>
