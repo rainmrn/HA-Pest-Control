@@ -1,0 +1,16 @@
+{
+    "state": [
+        {
+            "name": "Johor",
+            "slug": "johor",
+            "description": "Johor is a Malaysian state located in the southern portion of Peninsular Malaysia. The state capital city and royal city of Johor is Johor Bahru, formerly known as Tanjung Puteri. The old state capital is Johor Lama.",
+            "image": "/state/johor.jpg"
+        },
+        {
+            "name": "Kedah",
+            "slug": "kedah",
+            "description": "Kedah is a state in northwest Malaysia, bordering Thailand and encompassing the Langkawi archipelago. On Langkawi Island, the Mahsuri Tomb and the Langkawi Cable Car, with views of the Andaman Sea, are among the main attractions. In the capital of Alor Setar, the Zahir Mosque is a grand 19th-century structure with 5 domes. Alor Setar is also home to the Kedah Royal Museum, which displays royal artifacts.",
+            "image": "/state/kedah.jpg"
+        }
+    ]
+}

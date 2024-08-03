@@ -32,7 +32,7 @@
 <div id="placesD" style="display: none;">
 	<div class="bg-white rounded px-2 py-4 border shadow-lg space-y-1">
 		{#each places as place}
-			<a href={`/${place}`} class="block nav-button text-base px-5 text-black opacity-70 hover:cursor-pointer hover:opacity-100">{toTitleCase(place)}
+			<a href={`/state/${place}`.toLowerCase()} class="block nav-button text-base px-5 text-black opacity-70 hover:cursor-pointer hover:opacity-100">{toTitleCase(place)}
 			</a>
 		{/each}
 		</div>
